@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpower" content="width=device-width, initial-scale" />
+        <title>Session2_Activity</title>
+    </head>
+    <body>
+        <h1>Anthony L. Palanog | Session 2</h1>
+
+        <p>
+            3rd Year <abbr title="Course, Year, Section">BCS33</abbr>
+        </p>
+
+        <section>
+            <h2>Attributes for &lt;td&gt; and &lt;th&gt</h2>
+            <table style="border: 1px solid black">
+                <caption>
+                    Basketball Players
+                </caption>
+                <thead>
+                    <tr style="border: 1px solid black">
+                        <th style="border: 1px solid black">NBA Player</th>
+                        <th style="border: 1px solid black">Position</th>
+                        <th style="border: 1px solid black">Age</th>
+                    </tr>
+                </thead>
+                <tbody style="border: 1px solid black">
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">Michael Jordan</td>
+                    <td style="border: 1px solid black" rowspan="2">SG</td>
+                    <td style="border: 1px solid black">60</td>
+
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">LeBron James</td>
+                    <td style="border: 1px solid black" rowspan="2">SF</td>
+                    <td style="border: 1px solid black">38</td>
+
+                    <tr style="border: 1px solid black"></tr>
+                    <td style="border: 1px solid black">Stephen Curry</td>
+                    <td style="border: 1px solid black" rowspan="2">PG</td>
+                    <td style="border: 1px solid black">35</td>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <p><strong>Top Programming Languages for 2023</strong></p>
+
+            <ol type="I" start="1">
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>JavaaaScript</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Image Example</h2>
+            <figure>
+            
+
+            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L2hpcHBvdW5pY29ybjc2X3Bob3RvX29mX2JhYnlfbGFicmFkb3JfeWF3bmluZ19pc29sYXRlZF9vbl93aGl0ZV82YjVmMTIwMS02ZTU1LTRiMzQtOWQ4ZC0yNTM0NWQ4MmM3MDEucG5n.png"
+            height="300"
+            width="400"
+            alt="Dog Photo">
+            <figcaption>
+                Dog <a href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L2hpcHBvdW5pY29ybjc2X3Bob3RvX29mX2JhYnlfbGFicmFkb3JfeWF3bmluZ19pc29sYXRlZF9vbl93aGl0ZV82YjVmMTIwMS02ZTU1LTRiMzQtOWQ4ZC0yNTM0NWQ4MmM3MDEucG5n.png">Photo</a>
+            </figcaption>
+
+            </figure>
+
+        </section>
+        <!--1.-->
+        <h1>Input Full Name and Age</h1>
+    
+        <div>
+            <p>Full Name: <input type="text" placeholder="Input Full Name"></p>
+            <p>Age: <input type="text" placeholder="Input Age"></p>
+            <button>ENTER</button>
+        </div>
+
+
+        <!--2.-->
+        <h1>&lt;option&gt; element example</h1>
+
+    <label for="fruitSelect">Select Your Order </label>
+    <select id="fruitSelect">
+        <option value="Pizza">Pizza</option>
+        <option value="Fries">Fries</option>
+        <option value="Ice Cream">Ice Cream</option>
+    </select>
+
+    <br />
+    <br />
+
+     <!--3.-->
+     <h1>Using &lt;small&gt; attribute</h1>
+     <p>Can you read this? <small>How about this?</small></p>
+
+     <br>    
+
+
+        <!--4.-->
+        <h1>Example element for &lt;iframe&gt;</h1>
+
+        <iframe width="667" height="375" src="https://www.youtube.com/embed/ywg7cW0Txs4" title="CS50x 2023 - Lecture 1 - C" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <br />
+
+
+    <!--5.-->
+    <h1>&lt;details&gt; element example</h1>
+    <details open>
+        <summary>Click to see more</summary>
+        <p> Hi! I'm Anthony!</p>
+     </details>
+
+    <!--6.-->
+    <h1>&lt;aside&gt; element example</h1>
+    <aside>
+        <h3>Links:</h3>
+        <ul>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+    </aside>
+
+    <!--7.-->
+    <h1>&lt;time&gt; element example</h1>
+    <p>Time Element <time datetime="2023-9-30T20:00">8:00 PM on September 30, 2023</time>.</p>
+
+    <br />
+    
+    <!--8.-->
+    <h1>&lt;Progress&gt; and &lt;meter&gt; element example</h1>
+    <p> Loading Bar <progress value="30" max="100">30%</progress></p>
+
+    <!--9.-->
+    <p> Download Bar <meter value="2" min="0" max="5">2 out of 5</meter></p>
+    
+    <br />
+
+    <!--10.-->
+    <h1>&lt;output&gt; element example (Subtraction) </h1>
+    <form oninput="result.value = parseInt(a.value) - parseInt(b.value)">
+        <input type="number" id="a" name="a" value="25">
+        - <input type="number" id="b" name="b" value="17">
+        = <output name="result" for="a b"></output>
+    </form>
+    
+
+
+    </body>
+</html>
